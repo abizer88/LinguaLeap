@@ -1,0 +1,19 @@
+# Build and publish the React client from this repository's frontend folder.
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# The frontend uses relative URLs such as /api/auth/login. Forward them to the
+# Express API without exposing a different URL to the browser.
+[[redirects]]
+  from = "/api/*"
+  to = "https://lingualeap-925s.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+# Serve the React app for client-side routes instead of Netlify's 404 page.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
