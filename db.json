@@ -1,0 +1,352 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "tr_no": "12345",
+      "name": "Student 12345",
+      "password_hash": "$2a$10$IBc9o4wMLeuQrV3Csr1nDOs1W.1kkdMduOYfo73ot4IKcmnauIJJq",
+      "xp": 0,
+      "streak": 1,
+      "lives": 3,
+      "lessons_completed": 0,
+      "last_login": "Sun Aug 02 2026",
+      "lang_code": "ar_lsd",
+      "created_at": "2026-08-02T12:56:45.621Z"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "icon": "👋",
+      "label": "Greetings",
+      "sort": 0
+    },
+    {
+      "id": 2,
+      "icon": "📚",
+      "label": "Stationery",
+      "sort": 1
+    },
+    {
+      "id": 3,
+      "icon": "🏫",
+      "label": "School Life",
+      "sort": 2
+    },
+    {
+      "id": 4,
+      "icon": "💧",
+      "label": "Nature",
+      "sort": 3
+    },
+    {
+      "id": 5,
+      "icon": "🏠",
+      "label": "Home",
+      "sort": 4
+    },
+    {
+      "id": 6,
+      "icon": "👫",
+      "label": "People",
+      "sort": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "lesson_id": 1,
+      "question": "🇦🇪 What does \"مرحبا\" mean?",
+      "choices": [
+        "Hello",
+        "Goodbye",
+        "Please",
+        "Sorry"
+      ],
+      "answer": "Hello"
+    },
+    {
+      "id": 2,
+      "lesson_id": 1,
+      "question": "🇦🇪 What does \"شكراً\" mean?",
+      "choices": [
+        "Thank you",
+        "Please",
+        "Sorry",
+        "Hello"
+      ],
+      "answer": "Thank you"
+    },
+    {
+      "id": 3,
+      "lesson_id": 1,
+      "question": "🇦🇪 What does \"مع السلامة\" mean?",
+      "choices": [
+        "Goodbye",
+        "Hello",
+        "Thanks",
+        "Sorry"
+      ],
+      "answer": "Goodbye"
+    },
+    {
+      "id": 4,
+      "lesson_id": 2,
+      "question": "🇦🇪 What does \"كتاب\" mean?",
+      "choices": [
+        "Book",
+        "Pen",
+        "Chair",
+        "Door"
+      ],
+      "answer": "Book"
+    },
+    {
+      "id": 5,
+      "lesson_id": 2,
+      "question": "🇦🇪 What does \"قلم\" mean?",
+      "choices": [
+        "Pen",
+        "Book",
+        "Ruler",
+        "Eraser"
+      ],
+      "answer": "Pen"
+    },
+    {
+      "id": 6,
+      "lesson_id": 2,
+      "question": "🇦🇪 What does \"مسطرة\" mean?",
+      "choices": [
+        "Ruler",
+        "Pen",
+        "Book",
+        "Bag"
+      ],
+      "answer": "Ruler"
+    },
+    {
+      "id": 7,
+      "lesson_id": 3,
+      "question": "🇦🇪 What does \"مدرسة\" mean?",
+      "choices": [
+        "School",
+        "Hospital",
+        "Market",
+        "Park"
+      ],
+      "answer": "School"
+    },
+    {
+      "id": 8,
+      "lesson_id": 3,
+      "question": "🇦🇪 What does \"معلّم\" mean?",
+      "choices": [
+        "Teacher",
+        "Student",
+        "Parent",
+        "Doctor"
+      ],
+      "answer": "Teacher"
+    },
+    {
+      "id": 9,
+      "lesson_id": 3,
+      "question": "🇦🇪 What does \"طالب\" mean?",
+      "choices": [
+        "Student",
+        "Teacher",
+        "Friend",
+        "Brother"
+      ],
+      "answer": "Student"
+    },
+    {
+      "id": 10,
+      "lesson_id": 4,
+      "question": "🇦🇪 What does \"ماء\" mean?",
+      "choices": [
+        "Water",
+        "Fire",
+        "Earth",
+        "Air"
+      ],
+      "answer": "Water"
+    },
+    {
+      "id": 11,
+      "lesson_id": 4,
+      "question": "🇦🇪 What does \"شجرة\" mean?",
+      "choices": [
+        "Tree",
+        "Flower",
+        "River",
+        "Mountain"
+      ],
+      "answer": "Tree"
+    },
+    {
+      "id": 12,
+      "lesson_id": 5,
+      "question": "🇦🇪 What does \"بيت\" mean?",
+      "choices": [
+        "House",
+        "Street",
+        "School",
+        "Shop"
+      ],
+      "answer": "House"
+    },
+    {
+      "id": 13,
+      "lesson_id": 5,
+      "question": "🇦🇪 What does \"باب\" mean?",
+      "choices": [
+        "Door",
+        "Window",
+        "Wall",
+        "Roof"
+      ],
+      "answer": "Door"
+    },
+    {
+      "id": 14,
+      "lesson_id": 6,
+      "question": "🇦🇪 What does \"صديق\" mean?",
+      "choices": [
+        "Friend",
+        "Brother",
+        "Sister",
+        "Teacher"
+      ],
+      "answer": "Friend"
+    },
+    {
+      "id": 15,
+      "lesson_id": 6,
+      "question": "🇦🇪 What does \"أسرة\" mean?",
+      "choices": [
+        "Family",
+        "Friend",
+        "Teacher",
+        "Neighbor"
+      ],
+      "answer": "Family"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": 1,
+      "arabic": "مرحبا",
+      "lsd": "Hello",
+      "category": "greetings",
+      "lesson_id": 1
+    },
+    {
+      "id": 2,
+      "arabic": "شكراً",
+      "lsd": "Thank you",
+      "category": "greetings",
+      "lesson_id": 1
+    },
+    {
+      "id": 3,
+      "arabic": "مع السلامة",
+      "lsd": "Goodbye",
+      "category": "greetings",
+      "lesson_id": 1
+    },
+    {
+      "id": 4,
+      "arabic": "كتاب",
+      "lsd": "Book",
+      "category": "stationery",
+      "lesson_id": 2
+    },
+    {
+      "id": 5,
+      "arabic": "قلم",
+      "lsd": "Pen",
+      "category": "stationery",
+      "lesson_id": 2
+    },
+    {
+      "id": 6,
+      "arabic": "مسطرة",
+      "lsd": "Ruler",
+      "category": "stationery",
+      "lesson_id": 2
+    },
+    {
+      "id": 7,
+      "arabic": "مدرسة",
+      "lsd": "School",
+      "category": "school",
+      "lesson_id": 3
+    },
+    {
+      "id": 8,
+      "arabic": "معلّم",
+      "lsd": "Teacher",
+      "category": "school",
+      "lesson_id": 3
+    },
+    {
+      "id": 9,
+      "arabic": "طالب",
+      "lsd": "Student",
+      "category": "school",
+      "lesson_id": 3
+    },
+    {
+      "id": 10,
+      "arabic": "ماء",
+      "lsd": "Water",
+      "category": "nature",
+      "lesson_id": 4
+    },
+    {
+      "id": 11,
+      "arabic": "شجرة",
+      "lsd": "Tree",
+      "category": "nature",
+      "lesson_id": 4
+    },
+    {
+      "id": 12,
+      "arabic": "بيت",
+      "lsd": "House",
+      "category": "home",
+      "lesson_id": 5
+    },
+    {
+      "id": 13,
+      "arabic": "باب",
+      "lsd": "Door",
+      "category": "home",
+      "lesson_id": 5
+    },
+    {
+      "id": 14,
+      "arabic": "صديق",
+      "lsd": "Friend",
+      "category": "people",
+      "lesson_id": 6
+    },
+    {
+      "id": 15,
+      "arabic": "أسرة",
+      "lsd": "Family",
+      "category": "people",
+      "lesson_id": 6
+    }
+  ],
+  "progress_log": [],
+  "_nextId": {
+    "students": 2,
+    "lessons": 16,
+    "questions": 16,
+    "vocabulary": 16,
+    "progress": 1
+  }
+}
